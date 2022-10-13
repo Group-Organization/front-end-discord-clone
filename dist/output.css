@@ -551,29 +551,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
 .m-auto {
   margin: auto;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mt-6 {
@@ -596,14 +575,6 @@ video {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-3\/5 {
   width: 60%;
 }
@@ -612,12 +583,8 @@ video {
   width: 40%;
 }
 
-.w-2\/6 {
-  width: 33.333333%;
-}
-
-.w-1\/5 {
-  width: 20%;
+.w-full {
+  width: 100%;
 }
 
 .max-w-page-max-width {
@@ -636,6 +603,11 @@ video {
   gap: 1.25rem;
 }
 
+.bg-offwhite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -649,10 +621,6 @@ video {
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-5xl {
@@ -678,7 +646,7 @@ video {
   line-height: 1.625;
 }
 
-.study-group h2 {
+main h2 {
   line-height: 120%;
   font-size: clamp(20px, 4vw, 40px);
 }
